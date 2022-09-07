@@ -1,0 +1,10 @@
+.link{
+  transition: 1s;
+  text-decoration: none;
+  color: brown;
+}
+.link:global(.active){
+  transition: 1s;
+  color: yellowgreen;
+  font-size: 1.2rem;
+}
